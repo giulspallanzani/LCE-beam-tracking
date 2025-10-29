@@ -86,10 +86,12 @@ Please open issues or submit pull requests for improvements, bug fixes, or new f
 
 📜 This project is licensed under the BSD License. See LICENSE file for details.
 
-🙏 Acknowledgements
 
-Developed by Giulia Spallanzani.
+
+_Developed by Giulia Spallanzani_
+
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
