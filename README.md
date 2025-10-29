@@ -13,15 +13,25 @@ Highly Configurable: All key parameters are user-editable in config.py.
 
 
 📂 Project Structure
+
 cantilever-actuation-analysis/
+
 │
+
 ├── main.py                # Main script to run the analysis
+
 ├── set_the_parameters.py  # HSV filter tuning utility
+
 ├── config.py              # User-editable configuration file
+
 ├── init.py                # Global variable initialization (do not modify)
+
 ├── DPI_calculation.py     # Functions for mm/pixel scaling (do not modify)
+
 ├── functions.py           # Core analysis functions (do not modify)
+
 ├── README.md              # Project documentation
+
 └── requirements.txt       # Python dependencies
 
 
@@ -81,3 +91,4 @@ This project is licensed under the BSD License. See LICENSE file for details.
 
 Developed by Giulia Spallanzani.
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
