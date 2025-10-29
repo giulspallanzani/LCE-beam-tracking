@@ -81,16 +81,15 @@ HSV color thresholds (lower, upper): For color-based filtering.
 Other parameters for clustering, segmentation, and filtering.
 
 
-🤝 Contributing
-Contributions are welcome!
+🤝 Contributions are welcome!
 Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
-📜 License
-This project is licensed under the BSD License. See LICENSE file for details.
+📜 This project is licensed under the BSD License. See LICENSE file for details.
 
 🙏 Acknowledgements
 
 Developed by Giulia Spallanzani.
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
