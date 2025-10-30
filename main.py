@@ -40,15 +40,13 @@ from config import *
 from DPI_calculation import DPI_selection
 from functions import *
 
-sys.path.append("D:\\1. LCE Litho Matrix")
-
-## Settate le colonne del dataframe
+## Setting up dataframe
 DATAFRAME_COLUMNS = [
     "Frame", "Time (s)", "Curvature (1/mm)", "VerticalProjection (mm)",
     "HorizontalProjection (mm)", "CumulativeAngle"
 ]
 
-## Funzione per generare un file name univoco
+## Unique filename generation
 def gen_filename(base_path, suffix, extension, is_interrupted=False, last_frame=0):
     base_name = f"{os.path.splitext(base_path)[0]}_{datetime.today().date()}"
     
@@ -62,7 +60,7 @@ def gen_filename(base_path, suffix, extension, is_interrupted=False, last_frame=
         n += 1
     return final_path
 
-## Ho notato dei pezzi duplicati per generare i grafici, ti ho creato una funzione che prende in input il data frame e altri parametri per snellire il codice
+## Plot and save results
 def plot_and_save(df, video_path, is_interrupted=False, last_frame=0):
     plot_configs = [
         {'col': 'Curvature (1/mm)', 'title': 'Beam Curvature over Time', 'ylabel': 'Beam Curvature (1/mm)', 'color': 'b-', 'suffix': '_K'},
@@ -85,7 +83,7 @@ def plot_and_save(df, video_path, is_interrupted=False, last_frame=0):
         print(f"Plot saved to: {fig_name}")
         plt.show()
 
-## Funzione entry point del file, così è più pulito il flusso
+## Entry point function
 def main():
     cap = initialize_video(video_path)
 
@@ -204,6 +202,6 @@ def main():
         print("Cleanup complete. Exiting.")
 
 
-## Best practice per il main in python :)
 if __name__ == "__main__":
+
     main()
