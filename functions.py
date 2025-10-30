@@ -877,8 +877,8 @@ def process_frame(frame, frame_idx, resolution):
         init.max_length = length
     elif init.max_length != -1:
         flag = False
-        print(f"max length is {init.max_length}")
-        print(f"Path length (loop): {length}")
+        print(f"max length is {init.max_length*resolution}")
+        print(f"Path length (loop): {length*resolution}")
         # reset initial to the new length of the array of points
         initial = len(x_smooth)
         count = 0
@@ -1285,4 +1285,5 @@ def STARTPOINT_selection(cap):
                     init.point_selected = 0
                     flush_key_buffer()
         cv2.destroyWindow(init.bi_window_name)  # Close the selection window
+
     return

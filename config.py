@@ -45,9 +45,9 @@ n_tip_points = 7        # number of tip points used to calculate tip angle
 one_sided_fraction = 2  # inverse of the half-fraction of points to be used for curvature calculation (eg. if 3, 2/3 of the points will be used to calculate the curvature)
 
 # --- Configuration ---
-# video_path = "path/from_main/to/myvideo.MOV"  # Replace this with the path of the video to analyse
-video_path = "100_cycles_exp/PI/sample 2/20-HPE01426.MOV"
+video_path = "path/from_main/to/myvideo.MOV"  # Replace this with the path of the video to analyse
 start_time_str = "00:00:00.0"  # User Input: Start time string
 frame_skip = 30     # Process 1 frame, skip frame_skip-1 frames
 
 DPI_frame = 0 # Frame number for resolution calculation
+
