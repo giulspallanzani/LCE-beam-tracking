@@ -84,13 +84,29 @@ Other parameters for clustering, segmentation, and filtering.
 🤝 Contributions are welcome!
 Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
-📜 This project is licensed under the BSD License. See LICENSE file for details.
+📜 This project is licensed under the BSD 3-Clause License. See LICENSE file for details. This license choice complies with TNO’s open-source policy for permissive licensing.
 
+📄 If you use this code in your research, please cite:
 
+**giulspallanzani/LCE-beam-tracking: v1.0.0**  
+DOI: https://doi.org/10.5281/zenodo.17492309
+
+### BibTeX:
+@software{giulspallanzani_LCE_beam_tracking_2025,
+  author       = {Giulia Spallanzani},
+  title        = {LCE-beam-tracking: v1.0.0},
+  month        = oct,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.17492309},
+  url          = {https://doi.org/10.5281/zenodo.17492309}
+}
 
 _Developed by Giulia Spallanzani_
 
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
