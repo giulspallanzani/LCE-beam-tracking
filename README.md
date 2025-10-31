@@ -103,9 +103,13 @@ DOI: https://doi.org/10.5281/zenodo.17492309
   url          = {https://doi.org/10.5281/zenodo.17492309}
 }
 
+## 💰 Funding
+This work was supported by the Marie Skłodowska-Curie actions (project name: STORM-BOTS, grant agreement no. 956150) under the European Union’s Horizon 2020 research and innovation programme. 
+
 _Developed by Giulia Spallanzani_
 
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
