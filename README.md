@@ -84,7 +84,8 @@ Other parameters for clustering, segmentation, and filtering.
 ## 🤝 Contributions are welcome!
 Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
-## 📜 This project is licensed under the BSD 3-Clause License. See LICENSE file for details. This license choice complies with TNO’s open-source policy for permissive licensing.
+## 📜 This project is licensed under the BSD 3-Clause License. 
+See LICENSE file for details. This license choice complies with TNO’s open-source policy for permissive licensing.
 
 ## 📄 If you use this code in your research, please cite:
 
@@ -109,6 +110,7 @@ This work was supported by the Marie Skłodowska-Curie actions (project name: ST
 _Developed by Giulia Spallanzani_
 
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
