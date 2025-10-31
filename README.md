@@ -1,4 +1,4 @@
-##_Cantilever Bending Actuation Tracking and Analysis_
+## _Cantilever Bending Actuation Tracking and Analysis_
 
 This project provides a Python-based toolkit for tracking and analyzing the actuation of cantilever beams from video data. It leverages OpenCV and scientific Python libraries to extract quantitative metrics such as curvature, tip angle, and projections, with a focus on flexible configuration and interactive region-of-interest (ROI) selection.
 
@@ -109,6 +109,7 @@ This work was supported by the Marie Skłodowska-Curie actions (project name: ST
 _Developed by Giulia Spallanzani_
 
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
