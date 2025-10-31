@@ -2,7 +2,7 @@
 
 This project provides a Python-based toolkit for tracking and analyzing the actuation of cantilever beams from video data. It leverages OpenCV and scientific Python libraries to extract quantitative metrics such as curvature, tip angle, and projections, with a focus on flexible configuration and interactive region-of-interest (ROI) selection.
 
-🚀 Features
+## 🚀 Features
 
 Interactive ROI Selection: Select regions of interest for both analysis and calibration directly from video frames.
 HSV Color Filtering: Tune HSV thresholds for robust object detection, even with varying colors.
@@ -13,7 +13,7 @@ Exportable Results: Save processed data and plots for further analysis.
 Highly Configurable: All key parameters are user-editable in config.py.
 
 
-📂 Project Structure
+## 📂 Project Structure
 
 cantilever-actuation-analysis/
 
@@ -36,7 +36,7 @@ cantilever-actuation-analysis/
 └── requirements.txt       # Python dependencies
 
 
-⚙️ Installation
+## ⚙️ Installation
 
 1.Clone the repository:
 
@@ -48,7 +48,7 @@ cd <repo-name>
 pip install -r requirements.txt
 
 
-▶️ Usage
+## ▶️ Usage
 
 
 1.Configure your analysis:
@@ -69,7 +69,7 @@ set_the_parameters.py: Helps you find HSV filter settings by selecting areas of 
 DPI_calculation.py: Assists with calibrating the pixel-to-mm scale using a known reference.
 
 
-📝 Configuration
+## 📝 Configuration
 
 config.py:
 Edit this file to set:
@@ -81,12 +81,12 @@ HSV color thresholds (lower, upper): For color-based filtering.
 Other parameters for clustering, segmentation, and filtering.
 
 
-🤝 Contributions are welcome!
+## 🤝 Contributions are welcome!
 Please open issues or submit pull requests for improvements, bug fixes, or new features.
 
-📜 This project is licensed under the BSD 3-Clause License. See LICENSE file for details. This license choice complies with TNO’s open-source policy for permissive licensing.
+## 📜 This project is licensed under the BSD 3-Clause License. See LICENSE file for details. This license choice complies with TNO’s open-source policy for permissive licensing.
 
-📄 If you use this code in your research, please cite:
+## 📄 If you use this code in your research, please cite:
 
 **giulspallanzani/LCE-beam-tracking: v1.0.0**  
 DOI: https://doi.org/10.5281/zenodo.17492309
@@ -109,6 +109,7 @@ This work was supported by the Marie Skłodowska-Curie actions (project name: ST
 _Developed by Giulia Spallanzani_
 
 Uses OpenCV, NumPy, SciPy, Matplotlib, Pandas, and scikit-learn.
+
 
 
 
